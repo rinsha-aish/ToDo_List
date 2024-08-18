@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #000000;
+  background-color: #f2f2f2;
   margin: 0;
   padding: 20px;
 }
@@ -15,15 +15,15 @@ body {
 .app {
   max-width: 600px;
   margin: auto;
-  background: #fff;
+  background: #ffffff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
   text-align: center;
-  color: #1d06ee;
+  color: #000000;
 }
 
 .todo-input {
@@ -35,14 +35,14 @@ h1 {
 .todo-input input {
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid #cccccc;
   border-radius: 4px;
 }
 
 .todo-input button {
   padding: 10px;
   font-size: 16px;
-  background-color: #4819d4;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 4px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .todo-input button:hover {
-  background-color: #4a3cab;
+  background-color: #388e3c;
 }
 
 .filter-buttons {
@@ -66,7 +66,7 @@ h1 {
   min-width: 120px;
   padding: 10px;
   font-size: 16px;
-  background-color: #6c757d;
+  background-color: #2e3530;
   color: white;
   border: none;
   border-radius: 4px;
@@ -74,7 +74,7 @@ h1 {
 }
 
 .filter-buttons button.active {
-  background-color: #0c11b1;
+  background-color: #078d0e;
 }
 
 ul {
@@ -88,13 +88,13 @@ li {
   align-items: center;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 li.completed {
-  color: #6c757d;
+  color: #888888;
 }
 
 li div:last-child {
@@ -104,20 +104,20 @@ li div:last-child {
 
 li.completed div:first-child {
   text-decoration: line-through;
-  color: #6c757d;
+  color: #888888;
 }
 
 li.completed div:last-child i {
-  color: #0c277e;
+  color: #888888;
 }
 
 li i {
   cursor: pointer;
-  color: #0c277e;
+  color: #4caf50;
 }
 
 li i:hover {
-  color: #0b08d3;
+  color: #388e3c;
 }
 
 .edit-wrapper {
@@ -129,14 +129,14 @@ li i:hover {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #cccccc;
   border-radius: 4px;
 }
 
 .edit-wrapper button {
   padding: 10px;
   font-size: 16px;
-  background-color: #28a745;
+  background-color: #000000;
   color: white;
   border: none;
   border-radius: 4px;
@@ -144,5 +144,5 @@ li i:hover {
 }
 
 .edit-wrapper button:hover {
-  background-color: #218838;
+  background-color: #333333;
 }
